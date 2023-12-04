@@ -6,8 +6,8 @@ Godot plugin to add some functionality to TileMaps
 ## Usage
 
 ### Baking NavigationPolygon from multiple layers of TileMap(s)
-This solves issue with Godot's 4.2 baking of tilemaps. If any of you colliders not on Layer0 of TileMap, they will be ignored. This tool scraps all tiles from all the layers (both tile layers and physics layers) and merges as obstructions.
-Select `NavigationRegion2D` first, then hold <kbd>Ctrl</kbd> (or <kbd>⌘ Command</kbd> on Mac) and selct any amount of `TileMap`s. On the bottom bar TileChef menu should appear, click it. You will see "Bake NavigationPolygon from TileMaps" button. Click it, polygon should be baked. For some reason it waits for you to switch focus to render your poligon in view, so just click on any node or switch to Output to see your polygons baked.
+This solves issue with Godot's 4.2 baking of TileMaps. If any of you colliders not on `Layer0` of `TileMap`, they will be ignored. This tool scraps all tiles from all the layers (both tile layers and physics layers) and merges as obstructions.
+Select `NavigationRegion2D` first, then hold <kbd>Ctrl</kbd> (or <kbd>⌘ Command</kbd> on Mac) and select any amount of `TileMap`s. On the bottom bar TileChef menu should appear, click it. You will see "Bake NavigationPolygon from TileMaps" button. Click it, polygon should be baked. For some reason it waits for you to switch focus to render your polygon in view, so just click on any node or switch to Output to see your polygons baked.
 
 <table>
   <tr>
