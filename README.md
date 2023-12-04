@@ -1,4 +1,6 @@
-# TileMapsChef 💠🗺️🧑‍🍳
+# TileMapsChef
+<img width="96" alt="TileMapsChef icon" src="https://github.com/Pardok/TileMapsChef/assets/16256469/fcd6dbf9-8f63-4f0e-8549-919db74e886e">
+
 Godot plugin to add some functionality to TileMaps
 
 ## Usage
